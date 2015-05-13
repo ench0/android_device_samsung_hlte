@@ -44,7 +44,7 @@ BOARD_SEPOLICY_DIRS += \
 
 # TWRP specific build flags
 TW_THEME := landscape_hdpi
-TARGET_RECOVERY_FSTAB := device/samsung/klte/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/samsung/hlte-common/rootdir/etc/fstab.qcom
 DEVICE_RESOLUTION := 1080x1920
 RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
