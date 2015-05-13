@@ -33,6 +33,15 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # inherit from the proprietary version
 -include vendor/samsung/hlte/BoardConfigVendor.mk
 
+# Ril
+BOARD_RIL_CLASS := ../../../device/samsung/hlte-common/ril
+
+# SELinux
+-include device/qcom/sepolicy/sepolicy.mk
+
+BOARD_SEPOLICY_DIRS += \
+    device/samsung/hlte-common/sepolicy
+
 # TWRP specific build flags
 TW_THEME := landscape_hdpi
 TARGET_RECOVERY_FSTAB := device/samsung/klte/rootdir/etc/fstab.qcom
