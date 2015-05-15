@@ -32,3 +32,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # inherit from the proprietary version
 -include vendor/samsung/hlte/BoardConfigVendor.mk
+
+
+# SuperSU
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/broken/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/pa/prebuilt/broken/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
