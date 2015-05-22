@@ -1,1 +1,2 @@
-add_lunch_combo broken_hlte-eng
+add_lunch_combo carbon_hlte-eng
+add_lunch_combo carbon_hlte-userdebug
