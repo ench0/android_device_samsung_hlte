@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/broken.mk
+    $(LOCAL_DIR)/carbon.mk
