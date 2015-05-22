@@ -10,4 +10,4 @@ PRODUCT_DEVICE := hlte
 PRODUCT_NAME := nameless_hlte
 
 PRODUCT_COPY_FILES += \
-    vendor/nameless/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+    vendor/nameless/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
