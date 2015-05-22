@@ -1,1 +1,2 @@
-add_lunch_combo flex_hlte-eng
+add_lunch_combo nameless_hlte-eng
+add_lunch_combo nameless_hlte-userdebug
