@@ -5,7 +5,6 @@ $(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/validus/config/common_full_phone.mk)
-$(call inherit-product, vendor/validus/config/common_versions.mk)
 $(call inherit-product, vendor/validus/config/themes_common.mk)
 $(call inherit-product, vendor/validus/config/cm_audio.mk)
 
