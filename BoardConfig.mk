@@ -15,7 +15,7 @@
 # inherit from common hlte
 -include device/samsung/hlte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := hltexx,SM-N9005,hlte,hlteskt,hltektt,SM-N900S,SM-N900K,hltetmo,SM-N900T
+TARGET_OTA_ASSERT_DEVICE := hltexx,SM-N9005,hlte,hlteskt,hltektt,SM-N900S,SM-N900K,hltetmo,SM-N900T,hltecan,SM-N90W8
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
@@ -49,3 +49,4 @@ GRAPHITE_OPTS := true
 STRICT_ALIASING := true
 VALIDUS_CHANGELOG := true
 BLOCK_BASED_OTA := true
+ENABLE_GRAPHITE := true
