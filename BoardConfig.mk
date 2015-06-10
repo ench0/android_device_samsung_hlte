@@ -43,3 +43,13 @@ TARGET_KERNEL_CONFIG := msm8974_sec_hlte_eur_defconfig
 # Kernel Toolchain
 #KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-6.0/bin
 #KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+# Inline kernel building
+TARGET_KERNEL_SOURCE := kernel/samsung/hlte
+#BOARD_KERNEL_IMAGE_NAME := zImage-dtb
+
+#BOARD_KERNEL_BASE := 0x00000000
+#BOARD_KERNEL_PAGESIZE :=  2048
+#BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
+#BOARD_RAMDISK_OFFSET     := 0x02000000
+#BOARD_GLOBAL_CFLAGS := --param l1-cache-size=16 --param l1-cache-line-size=16 --param l2-cache-size=2048
+#BOARD_GLOBAL_CPPFLAGS := --param l1-cache-size=16 --param l1-cache-line-size=16 --param l2-cache-size=2048
