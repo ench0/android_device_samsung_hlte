@@ -37,15 +37,16 @@ TARGET_USERIMAGES_USE_EXT4 := true
 #PLATFORM_LINARO_4.9 := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := msm8974_sec_hlte_eur_defconfig
+#TARGET_KERNEL_CONFIG := msm8974_sec_hlte_eur_defconfig
 #BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1
 #BOARD_CUSTOM_BOOTIMG_MK := device/oneplus/bacon/mkbootimg.mk
 # Kernel Toolchain
 #KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-6.0/bin
 #KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 # Inline kernel building
-TARGET_KERNEL_SOURCE := kernel/samsung/hlte
+#TARGET_KERNEL_SOURCE := kernel/samsung/hlte
 #BOARD_KERNEL_IMAGE_NAME := zImage-dtb
+#TARGET_PREBUILT_KERNEL := device/bn/zoom2/prebuilt/boot/kernel_sdcard
 
 #BOARD_KERNEL_BASE := 0x00000000
 #BOARD_KERNEL_PAGESIZE :=  2048
