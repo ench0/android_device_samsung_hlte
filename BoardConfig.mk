@@ -34,10 +34,10 @@ TARGET_USERIMAGES_USE_EXT4 := true
 -include vendor/samsung/hlte/BoardConfigVendor.mk
 
 #Rom Toolchain
-PLATFORM_LINARO_4.9 := true
+#PLATFORM_LINARO_4.9 := true
 
 # Kernel
-#TARGET_KERNEL_CONFIG := mm_bacon_defconfig
+TARGET_KERNEL_CONFIG := msm8974_sec_hlte_eur_defconfig
 #BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1
 #BOARD_CUSTOM_BOOTIMG_MK := device/oneplus/bacon/mkbootimg.mk
 # Kernel Toolchain
