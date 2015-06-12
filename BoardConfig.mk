@@ -34,13 +34,13 @@ TARGET_USERIMAGES_USE_EXT4 := true
 -include vendor/samsung/hlte/BoardConfigVendor.mk
 
 # Ril
-BOARD_RIL_CLASS := ../../../device/samsung/hlte-common/ril
+#BOARD_RIL_CLASS := ../../../device/samsung/hlte-common/ril
 
 # SELinux
--include device/qcom/sepolicy/sepolicy.mk
+#-include device/qcom/sepolicy/sepolicy.mk
 
-BOARD_SEPOLICY_DIRS += \
-    device/samsung/hlte-common/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    device/samsung/hlte-common/sepolicy
 
 # TWRP specific build flags
 #TW_THEME := landscape_hdpi
