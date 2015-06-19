@@ -1,3 +1,10 @@
+# Release name
+PRODUCT_RELEASE_NAME := hlte
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 $(call inherit-product, device/samsung/hlte/full_hlte.mk)
 
 # Enhanced NFC
