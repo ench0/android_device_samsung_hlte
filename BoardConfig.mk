@@ -35,5 +35,5 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # eee Kernel
 #TARGET_KERNEL_VARIANT_CONFIG := eee_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := eee_mainline_defconfig
+#TARGET_KERNEL_VARIANT_CONFIG := eee_mainline_defconfig
 #TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_tmo_defconfig
