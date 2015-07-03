@@ -33,7 +33,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # inherit from the proprietary version
 -include vendor/samsung/hlte/BoardConfigVendor.mk
 
-TARGET_KERNEL_CONFIG := eee_defconfig
+#TARGET_KERNEL_CONFIG := eee_defconfig
 #TARGET_KERNEL_CONFIG := msm8974_sec_defconfig
 #TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 #TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_eur_defconfig
