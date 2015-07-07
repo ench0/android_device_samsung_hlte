@@ -1,10 +1,10 @@
 $(call inherit-product, device/samsung/hlte/full_hlte.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/orion/config/nfc_enhanced.mk)
 
 # Inherit some common Broken stuff.
-$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
+$(call inherit-product, vendor/orion/config/common_full_phone.mk)
 
 # Not actually needed, includes stk (sim toolkit) that is already included in the one just above :)
 #$(call inherit-product, vendor/tesla/config/gsm.mk)
