@@ -10,7 +10,7 @@ $(call inherit-product, vendor/orion/config/common_full_phone.mk)
 #$(call inherit-product, vendor/tesla/config/gsm.mk)
 
 PRODUCT_DEVICE := hlte
-PRODUCT_NAME := tesla_hlte
+PRODUCT_NAME := orion_hlte
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
