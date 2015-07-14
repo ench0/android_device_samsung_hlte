@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_hlte.mk
+    $(LOCAL_DIR)/axxion_hlte.mk
