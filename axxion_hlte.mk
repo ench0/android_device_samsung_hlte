@@ -10,4 +10,4 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 PRODUCT_DEVICE := hlte
-PRODUCT_NAME := omni_hlte
+PRODUCT_NAME := axxion_hlte
