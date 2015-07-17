@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/orion.mk
+    $(LOCAL_DIR)/minimal.mk
