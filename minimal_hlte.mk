@@ -4,7 +4,7 @@ $(call inherit-product, device/samsung/hlte/full_hlte.mk)
 $(call inherit-product, vendor/minimal/configs/nfc_enhanced.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/minimal/products/common.mk)
+#$(call inherit-product, vendor/minimal/products/common.mk)
 
 # Telephony
 $(call inherit-product, vendor/minimal/configs/telephony.mk)
