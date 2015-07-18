@@ -32,3 +32,7 @@ PRODUCT_RELEASE_NAME := hlte
 
 # Set build fingerprint / ID / Product Name ect.
 #PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=hlte TARGET_DEVICE=hlte BUILD_FINGERPRINT="samsung/hlte/hlte:4.4.2/JZO54K/I317UCAMA4:user/release-keys" PRIVATE_BUILD_DESC="hlte-user 4.4.2 JZO54K I317UCAMA4 release-keys"
+
+PRODUCT_PACKAGES += \
+    Camera2 \
+    Gallery2
