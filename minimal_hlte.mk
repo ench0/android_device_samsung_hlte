@@ -21,10 +21,12 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Copy specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/minimal/proprietary/tuna/media/bootanimation.zip:system/media/bootanimation.zip 
+    vendor/minimal/proprietary/tuna/media/bootanimation.zip:system/media/bootanimation.zip \
 #    vendor/minimal/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
-#    vendor/minimal/proprietary/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
-#    vendor/minimal/proprietary/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+    vendor/minimal/proprietary/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/minimal/proprietary/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
+    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
+
 
 PRODUCT_DEVICE := hlte
 PRODUCT_NAME := minimal_hlte
