@@ -29,6 +29,13 @@ PRODUCT_COPY_FILES +=  \
 # Inherit drm blobs eye
 -include vendor/minimal/products/common_drm.mk
 
+# Setup device specific product configuration.
+PRODUCT_NAME := minimal_hlte
+PRODUCT_BRAND := samsung
+PRODUCT_DEVICE := hlte
+PRODUCT_MODEL := Note 3
+PRODUCT_MANUFACTURER := Samsung
+
 #TARGET_CONTINUOUS_SPLASH_ENABLED := true
 
 # Release name
