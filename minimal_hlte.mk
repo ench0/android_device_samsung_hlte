@@ -4,15 +4,14 @@ $(call inherit-product, device/samsung/hlte/full_hlte.mk)
 $(call inherit-product, vendor/minimal/configs/nfc_enhanced.mk)
 
 # Inherit common product files.
-#$(call inherit-product, vendor/minimal/products/common.mk)
-
-# Telephony
-#$(call inherit-product, vendor/minimal/configs/telephony.mk)
-
-#$(call inherit-product, vendor/minimal/configs/gsm.mk)
+$(call inherit-product, vendor/minimal/products/common.mk)
 
 # Inherit common build.prop overrides
 -include vendor/minimal/products/common_versions.mk
+
+# APNs
+PRODUCT_COPY_FILES +=  \
+	vendor/minimal/proprietary/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -27,16 +26,18 @@ PRODUCT_COPY_FILES +=  \
     #vendor/minimal/proprietary/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
     #frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
-
+# Inherit drm blobs eye
+-include vendor/minimal/products/common_drm.mk
 
 #TARGET_CONTINUOUS_SPLASH_ENABLED := true
 
 # Release name
 #PRODUCT_RELEASE_NAME := SM-N9005
 
-# Set build fingerprint / ID / Product Name ect.
-#PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=hlte TARGET_DEVICE=hlte BUILD_FINGERPRINT="samsung/hlte/hlte:4.4.2/JZO54K/I317UCAMA4:user/release-keys" PRIVATE_BUILD_DESC="hlte-user 4.4.2 JZO54K I317UCAMA4 release-keys"
-
 PRODUCT_PACKAGES += \
     Camera2 \
     Gallery2
+
+#PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=D5803
+#PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=Sony/D5803/D5803:5.0.2/23.1.A.1.28/151083418:user/release-keys
+#PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="D5803-user 5.0.2 23.1.A.1.28 151083418 release-keys"
