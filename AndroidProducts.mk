@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xenon.mk
+    $(LOCAL_DIR)/xenonhd_hlte.mk
