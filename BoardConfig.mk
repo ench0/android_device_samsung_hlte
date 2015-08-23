@@ -34,6 +34,10 @@ TARGET_USERIMAGES_USE_F2FS := true
 # inherit from the proprietary version
 -include vendor/samsung/hlte/BoardConfigVendor.mk
 
+#added
+TARGET_NO_RECOVERY := true
+#TARGET_NO_KERNEL := true
+
 # Ril
 #BOARD_RIL_CLASS := ../../../device/samsung/hlte-common/ril
 
